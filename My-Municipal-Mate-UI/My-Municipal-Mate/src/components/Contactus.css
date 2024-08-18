@@ -1,0 +1,92 @@
+.line-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.top-line, .bottom-line {
+    border: 0;
+    height: 3px;
+    background-color: rgb(15, 89, 89);
+    margin: 0;
+    width: 100%;
+}
+
+.cards-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.contactUs-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 45px;
+}
+
+.card {
+    background-color: rgb(15, 89, 89);
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+    width: 200px;
+    height: 325px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.card.blurred {
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i {
+    font-size: 25px;
+    color: white;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

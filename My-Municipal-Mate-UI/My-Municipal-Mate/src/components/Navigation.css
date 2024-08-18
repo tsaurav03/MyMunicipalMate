@@ -1,0 +1,220 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#outer-nav {
+    background-color: whitesmoke;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 89, 89);
+    padding: 20px;
+    color: white;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 90px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+}
+
+#nav-left, #nav-right {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#nav-right {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-right:hover {
+    background-color: white;
+    color: black;
+}
+
+#nav-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#nav-center-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-center-ul li {
+    margin: 0 10px;
+}
+
+#nav-center-ul li a {
+    text-decoration: none;
+    color: rgb(227, 240, 240);
+    font-size: 14px;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: transparent;
+}
+
+#nav-center-ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
+
+#button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(13, 70, 70);
+    color: white;
+    padding: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 2000;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    margin: 20px 0;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.side-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.side-menu .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+.side-menu.show {
+    transform: translateX(0);
+}
+
+/* #button2 {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#button3 {
+    margin-left: 5px;
+    cursor: pointer;
+} */
+ /* LanguageDropdown.css */
+/* Navigation.css or LanguageDropdown.css */
+
+/* Ensure these styles are applied specifically to the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text */
+    padding: 10px; /* Adjust padding */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .dropbtn i {
+    font-size: 20px; /* Adjust icon size */
+  }
+  
+  .dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Position it below the button */
+    background-color: #f9f9f9; /* White background */
+    min-width: 160px; /* Set width of dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Shadow */
+    z-index: 1; /* Place it on top */
+    right: 0; /* Align to the right of the dropdown button */
+    white-space: nowrap; /* Prevent line breaks in buttons */
+  }
+  
+  .dropdown-content button {
+    background-color: white; /* White background */
+    border: none; /* Remove borders */
+    padding: 12px; /* Adjust padding */
+    text-align: center; /* Center text */
+    display: inline-block; /* Display buttons inline */
+    width: auto; /* Auto width to fit content */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .dropdown-content button:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+  }
+  
+  /* Show dropdown-content when .show class is added */
+  .dropdown.show .dropdown-content {
+    display: flex; /* Display items in a row */
+    flex-direction: row; /* Row direction */
+  }
+  
+  
+   

@@ -1,0 +1,59 @@
+.assign-role-form {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        padding: 2rem;
+        background-color: #f8f9fa;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ced4da;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-left: 280px;
+        margin-top: 40px;
+}
+
+.assign-role-form h2 {
+    text-align: center;
+}
+
+.assign-role-form .form-group {
+    margin-bottom: 15px;
+}
+
+.assign-role-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.assign-role-form .form-group input,
+.assign-role-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.assign-role-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(15, 89, 89);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.assign-role-form button:hover {
+    background-color: rgb(15, 89, 89)3;
+    color: white;
+}
+
+.assign-role-form p {
+    text-align: center;
+    margin-top: 15px;
+}

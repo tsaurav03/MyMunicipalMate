@@ -1,0 +1,76 @@
+#bg {
+    background-color: whitesmoke;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 89, 89);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto;   
+    height: 480px;
+}
+
+.register-form h2 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 2px solid #ced4da;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+}
+
+.register-form input[type="text"]:focus,
+.register-form input[type="email"]:focus,
+.register-form input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 2px solid #007BFF;
+    border-radius: 6px;
+    background-color: white;
+    color: #007BFF;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.register-form button:hover {
+    background-color: rgb(15, 89, 89);
+    color: white;
+    border-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.register-form .error-message {
+    color: #dc3545;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+    text-align: center;
+}

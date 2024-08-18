@@ -1,0 +1,33 @@
+{
+    "home": "Home",
+    "contactUs": "Contact Us",
+    "feeds": "Feeds",
+    "complain": "Complain",
+    "dashboard": "Dashboard",
+    "feedback": "Feedback",
+    "adminLogin": "Admin Login",
+    "passwordSettings": "Password Settings",
+    "signOut": "Sign Out",
+    "taglineOne": "My Municipal Mate",
+    "taglineTwo": "Connecting communities with ease – My Municipal Mate brings municipal services into the digital age.",
+    "welcome": "Welcome to",
+    "title": "My Municipal Mate",
+    "aboutUs": {
+      
+      "p1": "My Municipal Mate—your go-to platform for improving local governance and enhancing civic life. Our mission is to empower residents by providing a simple and effective way to report municipal issues directly to the concerned authorities. Whether it’s a pothole on your street, a faulty streetlight, or an overflowing sewer, our app enables you to make your voice heard and contribute to the betterment of your community.",
+      "p2": "With My Municipal Mate, reporting a problem is as easy as taking a photo and uploading it. You can track the status of your complaints and stay updated on the progress made by city officials. Our community feed allows you to see all reported issues in your area and even support others by liking their complaints.",
+      "p3": "City officials benefit from our platform too. They receive real-time notifications about reported issues and can efficiently manage and update the status of complaints. This transparency fosters accountability and ensures that civic services are delivered more effectively.",
+      "p4": "At My Municipal Mate, we believe that a healthier, safer, and more responsive city is just a few clicks away. Join us in making your city a better place to live!"
+    },
+    "quickLinks": "Quick Links",
+    "contact": {
+      "heading": "Contact Us",
+      "address": "ACTS-CDAC, Panchavati, Pashan- Pune",
+      "email": "Email: mymunicipalmate.com",
+      "phone": "Phone: +123 456 7890",
+      "feedback": "For any site feedback and other reviews, use our social media handles or email us. We would like to hear from you!!!"
+    },
+    "footer": {
+      "copyright": "&copy; 2024 My Municipal Mate. All rights reserved."
+    }
+}

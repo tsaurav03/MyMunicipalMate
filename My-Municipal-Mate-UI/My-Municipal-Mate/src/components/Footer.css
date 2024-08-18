@@ -1,0 +1,18 @@
+#footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #0b0d3c; 
+    padding: 10.5px; 
+    margin: 0; 
+    color: white; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    box-sizing: border-box; 
+    z-index: 1000; 
+}  
+
+#footer h2 {
+    margin: 0; 
+}

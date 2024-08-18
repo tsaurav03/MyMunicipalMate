@@ -1,0 +1,87 @@
+
+.add-complaint-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 89, 89);
+   
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    position: absolute;    
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.add-complaint-container h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.add-complaint-container .form-group {
+    margin-bottom: 15px;
+}
+
+.add-complaint-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.add-complaint-container .form-group input,
+.add-complaint-container .form-group textarea,
+.add-complaint-container .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.add-complaint-container .form-group input[type="file"] {
+    padding: 5px;
+   
+}
+
+.add-complaint-container .form-group input:focus,
+.add-complaint-container .form-group textarea:focus,
+.add-complaint-container .form-group select:focus {
+    border-color: #0f5c5c;
+    outline: none;
+}
+
+.add-complaint-container .error-message {
+    color: #d9534f;
+    
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.add-complaint-container button {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.add-complaint-container button:hover {
+    background-color: #0f5c5c;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+    color: white;
+}

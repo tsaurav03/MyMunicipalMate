@@ -1,0 +1,56 @@
+
+
+.admin-complaint-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.admin-complaint-form h2 {
+    color: rgb(15, 89, 89);
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.admin-complaint-form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.admin-complaint-form button {
+    background-color:rgb(15, 89, 89);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.admin-complaint-form button:last-child {
+    margin-right: 0;
+}
+
+.admin-complaint-form button:hover {
+    background-color: rgb(15, 89, 89);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}

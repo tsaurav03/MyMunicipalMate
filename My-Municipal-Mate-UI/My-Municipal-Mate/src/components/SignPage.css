@@ -1,0 +1,127 @@
+.sign-in-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: whitesmoke;
+}
+
+.sign-in-page-container {
+  background-color: rgb(15, 89, 89);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+
+.sign-in-page-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.sign-in-page-container input[type="text"],
+.sign-in-page-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.sign-in-page-container input[type="text"]:focus,
+.sign-in-page-container input[type="password"]:focus {
+  border-color: rgb(15, 89, 89);
+  outline: none;
+}
+
+.sign-in-page-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-page-container button:hover {
+  background-color: #0f5c5c;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.sign-in-page-container .error-message {
+  color: #d9534f;
+  font-size: 0.875rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.sign-in-page-container .login-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.sign-in-page-container .login-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 0.875rem;
+}
+
+.sign-in-page-container .login-links a:hover {
+  text-decoration: underline;
+}
+
+.sign-in-page-container .oauth-buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-page-container .oauth-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-page-container .oauth-button .icon {
+  margin-right: 0.5rem;
+}
+
+.sign-in-page-container .oauth-button.google {
+  background-color: #db4437;
+}
+
+.sign-in-page-container .oauth-button.google:hover {
+  background-color: #c1351d;
+}  
+
+.sign-in-page-container .oauth-button.facebook {
+  background-color: #4267b2;
+}
+
+.sign-in-page-container .oauth-button.facebook:hover {
+  background-color: #365899;
+}
+      
